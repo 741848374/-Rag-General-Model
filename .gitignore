@@ -1,0 +1,44 @@
+# dependencies
+node_modules/
+
+# compiled output
+dist/
+build/
+
+# Docker volumes (database data)
+volumes/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+coverage/
+.nyc_output/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# dotenv environment variable files
+.env
+.env.*.local
+.env.local
+
+# temp directory
+.temp
+.tmp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
